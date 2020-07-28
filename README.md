@@ -2,7 +2,7 @@
 
 Lightweight easy to use, highly customizable react modal
 
-[![NPM](https://img.shields.io/npm/v/react-simple-modal.svg)](https://www.npmjs.com/package/react-simple-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/plain-react-modal.svg)](https://www.npmjs.com/package/plain-react-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Installation
 
@@ -39,12 +39,18 @@ class Example extends Component {
 
 ## Options
 
-| Property           | Type   | Description                                      |
-| ------------------ | ------ | ------------------------------------------------ |
-| onClose (required) | func   | Called when user clicks on close button          |
-| title              | String | Modal title                                      |
-| overlayColor       | String | Modal overlay color i.e. rgba(255, 255, 255, .8) |
-| backgroundColor    | String | Modal background color i.e. #FFF                 |
+| Property           | Type    | Description                                                |
+| ------------------ | ------- | ---------------------------------------------------------- |
+| onClose (required) | func    | Called when user clicks on close button                    |
+| title              | String  | Modal title                                                |
+| overlayColor       | String  | Modal overlay color i.e. rgba(255, 255, 255, .8)           |
+| backgroundColor    | String  | Modal dialog background color i.e. #FFF                    |
+| noShadow           | boolean | Modal dialog shadow (default value is false)               |
+| styles             | object  | Modal css style i.e. {maxWidth: '960px', color: '#2c3543'} |
+
+## Demo
+
+Demo available at [CodePen](https://codepen.io/manjiltamang/project/full/AJyNaq)
 
 ## License
 
