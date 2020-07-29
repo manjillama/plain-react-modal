@@ -2,3 +2,12 @@ language: node_js
 node_js:
   - 12
   - 10
+dist: trusty # Operating system, trusty is small version of linux
+cache: # Reuse the same node_modules to speed up the installation (Optional)
+  directories:
+    - node_modules
+    - example/node_modules
+install:
+  - npm install
+script:
+  - npm run test
