@@ -56,6 +56,7 @@ class Example extends Component {
 Demo available at [CodePen](https://codepen.io/manjiltamang/project/full/AJyNaq)
 
 ## Contributing
+
 Pull requests are welcome! You can create an issue or send in a PR. Please see [here](https://github.com/manjillama/plain-react-modal/blob/master/CONTRIBUTING.md).
 
 ## License
