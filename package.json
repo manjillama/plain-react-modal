@@ -1,7 +1,7 @@
 {
   "name": "plain-react-modal",
-  "version": "1.0.2",
-  "description": "Simple customizable react modal",
+  "version": "1.0.3",
+  "description": "Simple lightweight, highly customizable react modal",
   "keywords": [
     "react",
     "react-component",
