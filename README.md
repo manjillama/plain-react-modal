@@ -2,7 +2,10 @@
 
 Lightweight easy to use, highly customizable react modal
 
+[![Build Status](https://travis-ci.org/manjillama/plain-react-modal.svg)](https://travis-ci.org/manjillama/plain-react-modal)
 [![NPM](https://img.shields.io/npm/v/plain-react-modal.svg)](https://www.npmjs.com/package/plain-react-modal) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![License](https://img.shields.io/github/license/manjillama/plain-react-modal.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 ## Installation
 
@@ -51,6 +54,9 @@ class Example extends Component {
 ## Demo
 
 Demo available at [CodePen](https://codepen.io/manjiltamang/project/full/AJyNaq)
+
+## Contributing
+Pull requests are welcome! You can create an issue or send in a PR. Please see [here](https://github.com/manjillama/plain-react-modal/blob/master/CONTRIBUTING.md).
 
 ## License
 
