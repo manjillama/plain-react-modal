@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Route } from './route'
 import ExampleOne from './components/ExampleOne'
 import ExampleTwo from './components/ExampleTwo'
 import ExampleThree from './components/ExampleThree'
@@ -8,19 +8,15 @@ import './style.css'
 
 export default () => (
   <div className='container-md'>
-    <Router>
-      <Nav />
-      <Switch>
-        <Route path='/' exact>
-          <ExampleOne />
-        </Route>
-        <Route path='/two'>
-          <ExampleTwo />
-        </Route>
-        <Route path='/three'>
-          <ExampleThree />
-        </Route>
-      </Switch>
-    </Router>
+    <Nav />
+    <Route path='/' exact>
+      <ExampleOne />
+    </Route>
+    <Route path='/two'>
+      <ExampleTwo />
+    </Route>
+    <Route path='/three'>
+      <ExampleThree />
+    </Route>
   </div>
 )
