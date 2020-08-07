@@ -14,6 +14,11 @@ To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com)
     $ npm install plain-react-modal
     $ yarn add plain-react-modal
 
+## Requirements
+
+- React >= 16.x
+- ReactDOM >= 16.x
+
 ## Usage
 
 ```jsx

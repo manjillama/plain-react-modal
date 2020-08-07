@@ -1,6 +1,6 @@
 {
   "name": "plain-react-modal",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightweight easy to use, highly customizable react modal",
   "keywords": [
     "react",
@@ -30,7 +30,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
