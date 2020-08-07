@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Modal from 'plain-react-modal'
 import 'plain-react-modal/dist/index.css'
 
-const ExampleOne = () => {
+const ExampleOne = (props) => {
   const [isOpened, setIsOpened] = useState(false)
   return (
     <div>

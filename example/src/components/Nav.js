@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from '../route'
+import { Link } from 'react-router-dom'
 
 export default () => (
   <nav>
