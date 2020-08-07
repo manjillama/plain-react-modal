@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom'
 import modalStyles from './styles.module.css'
 
 export default class Modal extends Component {
-  componentWillMount() {
+  /* eslint camelcase: "off" */
+  UNSAFE_componentWillMount() {
     this.modalTarget = document.createElement('div')
     document.body.appendChild(this.modalTarget)
   }
@@ -15,8 +16,6 @@ export default class Modal extends Component {
 
   componentWillUnmount() {
     this.body.classList.remove(modalStyles.modalOpen)
-
-    ReactDOM.unmountComponentAtNode(this.modalTarget)
     document.body.removeChild(this.modalTarget)
   }
 
